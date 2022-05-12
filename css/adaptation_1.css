@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 780px){
+    h2{
+        margin-top:27px;
+    }
+    
+    #form_button:last-child{
+    margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+
+    form.form{
+        width: 75%;
+        margin-bottom: 45px;
+        margin-top: 25px;
+    }
+    
+    input,textarea{
+        width: 230px;
+        padding: 7px;
+        margin: 11px;
+    }
+
+    div#form_buttom{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    table th, table td{
+        padding: 10px;
+    }
+    }
+
+    @media screen and (max-width: 320px){
+
+        input,textarea{
+            width: 180px;
+        }
+
+    }

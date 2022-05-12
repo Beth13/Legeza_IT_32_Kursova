@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/adaptation.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="./index.html">Main</a></li>
+                <li><a class="menu__item" href="./table.html">Table</a></li>
+                <li><a class="menu__item" href="list.html">Your list</a></li>
+                <li><a class="menu__item" href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+
+        <nav class="flex-item menu">
+            <div class="menu"><a href="./index.html">Main</a></div>
+            <div class="menu"><a href="./table.html">Table</a></div>
+            <div class="menu"><a href="list.html">Your list</a></div>
+            <div class="menu"><a href="contacts.html">Contacts</a></div>
+        </nav>
+
+    </header>
+
+    <h1 class="title">Your list</h1>
+    <main class="todo-list">
+        <div class="actions">
+            <input class="task-input" type="text" />
+            <button class="btn create-task-btn">Create</button>
+        </div>
+        <ul class="list"></ul>
+    </main>
+    <h1 class="title">Inventarization it is easy now!</h1>
+
+    <script src="./scripts/list/index.js" type="module"></script>
+
+    <footer>
+
+        <nav class="footer_text">
+            <div class="menu2"><a class="footer_a" href="./index.html">Main</a></div>
+            <div class="menu2"><a class="footer_a" href="./table.html">Table</a></div>
+            <div class="menu2"><a class="footer_a" href="list.html">Your list</a></div>
+            <div class="menu2"><a class="footer_a" href="contacts.html">Contact</a></div>
+        </nav>
+
+        <nav class="footer_img">
+            <div class="menu_img"><a href="#"><img class="footer_img_logo" src="./image/instagram.png" alt=""></a></div>
+            <div class="menu_img"><a href="#"><img class="footer_img_logo" src="./image/viber.png" alt=""></a></div>
+            <div class="menu_img"><a href="#"><img class="footer_img_logo" src="./image/facebook.png" alt=""></a></div>
+            <div class="menu_img"><a href="#"><img class="footer_img_logo" src="./image/telegram.png" alt=""></a></div>
+        </nav>
+
+    </footer>
+
+    <div class="footer-bottom">
+        <p>2022&copy; Designed by Beth</p>
+    </div>
+</body>
+
+</html>
