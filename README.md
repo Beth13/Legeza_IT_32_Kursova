@@ -1,7 +1,5 @@
 # Project
 
-## [Site Link]()
-
 ### Layout supports mobile and desktop versions
 
 ## The tech stack is:
